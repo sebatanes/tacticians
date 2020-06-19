@@ -1,0 +1,278 @@
+	
+#navbar{
+	position: fixed;
+	z-index: 99;
+	color: white;
+	width: 100%;	
+	padding: 0px 50px;
+	padding-right: 120px;
+padding-top: 10px;
+
+}
+#navbarLogo{
+	width: 130px;
+	height: auto;
+	position: relative;
+	top:15px;
+	margin-left: 100px;
+}
+
+.scroll{
+	background-color: rgba(38, 38, 38, 0.6);
+	border-bottom: 2px solid var(--main-green);
+}
+
+.wrapper{
+  	float: right;
+}
+
+.wrapperLink{
+	padding: 0 10px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:whitesmoke;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  font-weight: 600;
+	margin-right: 25px;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+
+.wrapperLink span{
+  position: relative;
+  z-index: 1; 
+  display: inline-block;
+
+}
+
+.wrapperLink span:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  z-index: 0;
+  height: 100%;
+
+  transition: all .35s;
+}
+
+#open,#close{
+	display: none;
+}
+.wrapperLink:hover{
+	  color: var(--main-green);
+}
+.wrapperLink span:hover:after{
+  width: 100%;
+
+}
+#here {
+	color: var(--main-green);
+}
+#here:hover{
+
+	color: var(--main-grey-dark);
+}
+#about-container-pc,#media-container-pc,#training-container-pc{
+display: none;
+}
+
+.container-pc{
+display: flex;
+position: absolute;
+border-top: 3px solid var(--main-green);
+background-color: var(--main-grey-dark);
+flex-direction: column;
+justify-content: space-around;
+padding-top: 15px;
+margin-left: 10px;
+}
+.container-pc a{
+text-decoration: none;
+color: var(--main-grey-light);
+margin-bottom: 20px;
+font-size: 16px;
+padding: 0px 5px;
+}
+
+.container-pc a:hover{
+	color: var(--main-blue);
+}
+.about-container-pc a:after{
+	background: none;
+}
+#media-arrow-up,#training-arrow-up,#about-arrow-up{
+	display: none;
+}
+#media-arrow-down,#training-arrow-down,#about-arrow-down{
+	display: none;
+}
+
+#here:hover{
+color: var(--main-grey-light);
+
+}
+@media screen and (max-width: 1200px){
+	.wrapper a{
+		font-size: 16px;
+	}
+	#navbarLogo{
+			margin-left: 10px;
+			top: 12px;
+	}
+	#navbar{
+		padding-left: 0px;
+			padding-right: 80px;
+	}
+.container-pc{
+	margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 1000px){
+
+	#navbar{
+		padding-left: 0px;
+			padding-right: 40px;
+	}
+#navbarLogo{
+	width: 80px;
+	margin: 0px 10px;
+	position: relative;
+	top: 0px;
+}
+}
+
+@media screen and (max-width: 900px){
+
+.wrapper{
+float: none;
+background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.wrapperLink{
+	text-align: left;
+	color: black;
+	height: 40px;
+
+}
+
+.wrapperLink {
+	margin: 0;
+	padding: 0;
+margin-bottom: 0;
+	border-bottom: 1px solid var(--main-grey-light);
+padding-left: 15px;
+display: none;
+height:40px;
+width: 100%;
+}
+.wrapperLink:hover{
+	background-color: var(--main-green);
+	color: white;
+}
+#close{
+	display: none;
+}
+#open{
+	display: block;
+}
+#navbar{
+	background-color: rgba( 	38, 38, 38, 0.6);
+	padding: 0;
+	border-bottom: 1px solid var(--main-grey-light);
+	position: fixed;
+}
+.wrapper a:after{
+  background: none;
+
+}
++
+#navbarLogo{
+	width: 80px;
+	top: 0px;
+	margin: 4px 0;
+	margin-top: 8px;
+}
+
+.container-pc{
+display: flex;
+position: static;
+padding: 0;
+border:none;
+padding-bottom: 0px;
+top: 0;
+background-color: var(--main-grey-light);
+flex-direction: column;
+}
+.container-pc a:hover{
+	color: var(--main-white);
+
+background-color: var(--main-green);
+
+}
+.container-pc a{
+text-decoration: none;
+color: var(--main-grey-dark);
+padding: 20px;
+font-size: 15px;
+margin: 0;
+text-align: left;
+
+}
+.arrow-down,.arrow-up{
+	font-size: 30px;
+	margin-top: 0;
+	float: right !important;
+	margin-right: 20px;
+}
+.arrow{
+	float: right;
+}
+.arrow-up{
+padding-top: 10px;
+}
+#media-arrow-up,#training-arrow-up,#about-arrow-up{
+	display: none;
+}
+#media-arrow-down,#training-arrow-down,#about-arrow-down{
+	display: inline-block;
+}
+.wrapper a{
+font-size: 14px;
+	}
+	#open,#close{
+	float: right !important;
+	font-size: 24px;
+	margin-top: 17px;
+	cursor: pointer;
+	margin-right: 43px;
+}
+
+.wrapperLink span{
+  position: relative;
+  z-index: 0; 
+  display: inline;
+
+}
+
+.wrapperLink span:after{
+	  position: relative;
+  z-index: 0;
+  height: 100%;
+  border-bottom:none;
+  transition: all .35s;
+}
+
+}

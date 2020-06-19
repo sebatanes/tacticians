@@ -1,0 +1,114 @@
+
+
+.price-matrix{
+	margin-top: 80px;
+}
+.price-matrix p{
+	font-family: monospace;
+font-size: 16;
+line-height: 23px;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.price-matrix h3{
+	font-size: 25px;
+}
+
+
+
+
+.price-matrix-value{
+	color: var(--main-green);
+	font-weight: bold;
+}
+.calculator-container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+width: 100%;
+}
+
+.price-matrix-calculator{
+	display: flex;
+
+	flex-direction: column;
+	border: 1px solid var(--main-grey-light);
+	padding: 30px 20px;
+width: 500px;
+
+}
+
+.calculator-title{
+	font-size: 28px!important;
+	letter-spacing: 1.5px;
+	color: var(--main-green);
+	position: relative;
+	text-align: center;
+	bottom: 20px;
+	align-self:center;
+
+}
+
+.price-matrix-calculator{
+color:var(--main-grey-dark);
+}
+.calculator-label,.price-matrix-calculator input,.price-matrix-calculator select {
+	
+		font-family:monospace;
+		font-size: 18px;
+
+	margin-bottom: 10px;
+}
+.price-matrix-calculator option[selected]{
+	background-color: var(--main-green);
+}
+
+.price-matrix-calculator input[type="submit"]{
+	background-color: var(--main-green);
+	margin-bottom: 15px;
+	width: 110px;
+		font-family:monospace;
+	cursor: pointer;
+	border: none;
+	padding: 5px 8px;
+	font-size: 18px;
+	color: white;
+}
+.price-matrix-calculator p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+font-size: 19px;
+}
+
+.price-matrix-calculator p span{
+color: var(--main-green);
+}
+
+.calculator-results{
+	background-color: var(--main-white);
+	padding: 10px;
+}
+
+
+@media screen and (max-width: 900px){
+.price-matrix p{
+width: 100%;
+}
+}
+
+
+@media screen and (max-width: 550px){
+
+.price-matrix-calculator{
+
+width: 100%;
+
+}
+
+
+
+
+	}

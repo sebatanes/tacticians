@@ -1,0 +1,31 @@
+
+*,
+*::before,
+*::after{
+	margin:0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Black Ops One', cursive;
+}
+
+
+:root{
+--main-grey-dark:#262626   ;
+--main-blue: 	#0099C3;
+--main-green: 	#558b2f        ;
+--main-grey-light: #a0acb2 ;
+--main-white:#e3e4e8;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
