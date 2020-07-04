@@ -60,8 +60,14 @@ transform: translateX(-50%);
 
 	}
 	.header{
-		background-image: url("https://image.businessinsider.com/59123490d9f4061f008b4e34?width=1100&format=jpeg&auto=webp");
+		background-image: url("../images/index-mobile.png");
 		background-size: cover;
+		background-position: 0px;
+	}
+}
+@media screen and (max-width: 700px){
+	.header{
+		background-position: -170px;
 	}
 }
 
@@ -69,7 +75,14 @@ transform: translateX(-50%);
 .header h1{
 	font-size: 40px;
 	letter-spacing: 3px;
-	color: red;
+
+}
+}
+@media screen and (max-width: 400px){
+.header h1{
+	font-size: 33px;
+	letter-spacing: 2.5px;
+
 }
 }
 

@@ -76,8 +76,8 @@ width: 100%;
 	padding:100px 0px;
 	}
 .course{
-	height: 400px;
-	width: 100%;
+
+	margin: 10px 10px;
 }
 	
 }
@@ -90,12 +90,11 @@ width: 100%;
 
 		@media screen and (max-width: 720px){
 .course{
-	height: 400px;
-	width: 100%;
+	width: 400px;
+}
 }
 
-}
-	@media screen and (max-width: 500px){
+		@media screen and (max-width: 450px){
 
 .course p{
 	background-color: rgba(0,0,0,0.5);
@@ -105,4 +104,8 @@ width: 100%;
 		letter-spacing: 2px;
 width: 100%;
 }
-	}
+	
+.course{
+	width: 275px;
+}
+}

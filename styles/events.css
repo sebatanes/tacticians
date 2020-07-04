@@ -16,6 +16,14 @@ background-position: 0px -100px;
 .events{
 	grid-column: center-start/center-end;
 	grid-row: 2/3;
+
+		display: flex;
+	align-items: center;justify-content: center;
+}
+.events img{
+	width: 350px;
+	margin: 100px;
+	height: auto;
 }
 .event{
 	display: flex;

@@ -59,6 +59,25 @@ font-family: monospace;
 	.info{
 		padding:100px 40px;
 	}
+	.info video{
+	width: 500px;
+}
+}
+@media screen and (max-width: 600px){
+	.info{
+		padding:100px 30px;
+	}
+	.info video{
+	width: 400px;
+}
+}
+@media screen and (max-width: 500px){
+	.info{
+		padding:100px 20px;
+	}
+	.info video{
+	width: 340px;
+}
 }
 @media screen and (max-width: 400px){
 	.info{
@@ -67,9 +86,18 @@ font-family: monospace;
 	.info p:last-child{
 		margin-bottom: 10px;
 	}
-
+	.info video{
+	width: 300px;
 }
-
+}
+@media screen and (max-width: 350px){
+	.info{
+		padding:100px 10px;
+	}
+	.info video{
+	width: 280px;
+}
+}
 /*comprometida----------------------------------------------------------------------------------------------------------------------------------*/
 .footer{
 	grid-row: 7/8;
